@@ -1,0 +1,18 @@
+
+.nav-link.active {
+  color: #60a5fa !important;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none !important;
+  }
+}
+
+.hero-name {
+  background: linear-gradient(to right, #60a5fa, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
